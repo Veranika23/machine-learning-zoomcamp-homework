@@ -10,3 +10,5 @@ client = {
 convert = requests.post(url, json=client).json()
 
 print('response:', convert)
+
+#response: {'convert_probability': 0.5340417283801275, 'convert': True}
